@@ -1,4 +1,4 @@
-# WeatherForecast.
+# Weather Forecast application with Next.js
 
 
 #### :bulb: *This app use Weather API  - https://openweathermap.org/api. You need to get your own API key and put it in '.env.local' file.*
