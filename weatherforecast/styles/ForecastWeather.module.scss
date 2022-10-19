@@ -1,0 +1,59 @@
+.container {
+  @apply
+  flex
+  flex-row
+  mt-10
+  shadow-lg
+  shadow-grey
+  max-w-fit
+  border
+  border-frame
+  rounded-xl
+  bg-white;
+
+  .weatherBlock {
+    @apply
+    flex
+    flex-col
+    items-center
+    px-10
+    py-5;
+
+    .weekDay {
+      @apply
+      text-lightRed
+      text-xl;
+    }
+
+    .date {
+      @apply
+      text-darkBlue
+      text-xs
+      my-3;
+    }
+
+    .temperature {
+      @apply
+      text-darkBlue
+      text-xl
+      pt-4;
+    }
+
+    .parameters {
+      @apply
+      flex
+      flex-col
+      text-darkGray
+      text-xs
+      mt-3;
+    }
+
+    .description {
+      @apply
+      self-center
+      mt-1
+      text-darkBlue;
+    }
+  }
+}
+

@@ -1,4 +1,8 @@
 .container {
-    @apply bg-amber-100 border border-amber-900 flex text-amber-700;
+  @apply
+  flex
+  flex-col
+  p-10
+  min-h-screen;
+}
 
-    }

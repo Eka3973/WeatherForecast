@@ -1,0 +1,62 @@
+.container {
+  @apply
+  flex
+  flex-col
+  w-80
+  max-h-60
+  border
+  border-frame
+  rounded-xl
+  bg-white
+  p-6
+  shadow-lg
+  shadow-grey;
+
+  .temperature {
+    @apply
+    flex
+    flex-row
+    justify-between
+    text-darkBlue
+    text-xl
+  }
+
+  .city {
+    @apply
+    text-blue
+    text-xl
+    mt-1
+    mb-4
+  }
+
+  .parameters {
+    @apply
+    flex
+    flex-col
+    text-darkGray
+    text-sm
+    mb-4
+  }
+
+  .details {
+    @apply
+    flex
+    flex-row
+    justify-between
+    items-center;
+
+    a {
+      @apply
+      text-blue
+      underline
+      underline-offset-2
+      active:text-lightRed
+    }
+
+    .date {
+      @apply
+      text-darkBlue
+      text-sm
+    }
+  }
+}

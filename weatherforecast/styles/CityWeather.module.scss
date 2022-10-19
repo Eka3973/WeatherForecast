@@ -1,0 +1,108 @@
+.wrapper {
+  @apply
+  p-10
+  flex
+  flex-col;
+
+  .title {
+    @apply
+    text-lightRed
+    text-xl
+    mb-8;
+  }
+
+  .container {
+    @apply
+    flex
+    flex-row
+    mt-6
+    p-4
+    shadow-lg
+    shadow-grey
+    max-w-fit
+    border
+    border-frame
+    rounded-xl
+    bg-white;
+
+    .period {
+      @apply
+      flex
+      flex-row
+      items-start
+      text-darkBlue
+      pr-4;
+
+      span {
+        @apply
+        first:text-darkBlue
+        first:pr-1
+        first:text-lg
+        last:text-darkGray
+        last:text-xs;
+      }
+    }
+
+    .weather {
+      @apply
+      flex
+      flex-col;
+
+      .weatherDetails {
+        @apply
+        flex
+        flex-row;
+
+        .temperature {
+          @apply
+          flex
+          flex-col
+          items-center
+          w-28
+          py-4
+          px-8;
+
+          span {
+            @apply
+            first:text-darkBlue
+            first:text-xs
+            last:text-lightRed
+            last:text-lg
+          }
+        }
+
+        .parameters {
+          @apply
+          flex
+          flex-col
+          justify-center
+          content-center
+          text-darkGray
+          text-xs
+          mx-6;
+        }
+
+        .icons {
+          @apply
+          flex
+          flex-col
+          justify-center
+          items-center
+          w-10
+        }
+      }
+
+      .description {
+        @apply
+        grow
+        self-center
+        px-2
+        text-sm
+        text-lightBlue;
+      }
+    }
+  }
+}
+
+
+

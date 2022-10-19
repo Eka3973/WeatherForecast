@@ -1,0 +1,28 @@
+.container {
+  @apply
+  flex
+  flex-row
+  mt-10;
+
+  .button {
+    @apply
+    border
+    border-amber-900
+    p-1.5
+    w-40
+    mr-4
+    border
+    border-blue
+    rounded-xl
+    text-darkBlue
+    shadow-lg
+    shadow-grey
+    hover:bg-lightBlue
+    hover:text-white
+    focus:outline-none
+    active:bg-lightBlue
+    active:border-blue
+    active:text-darkGray;
+  }
+}
+
